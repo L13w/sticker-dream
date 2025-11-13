@@ -1,5 +1,21 @@
 import { pipeline } from "@huggingface/transformers";
 
+// Check access code from URL parameter
+const urlParams = new URLSearchParams(window.location.search);
+const providedCode = urlParams.get('code');
+const requiredCode = import.meta.env.VITE_ACCESS_CODE;
+
+if (providedCode !== requiredCode) {
+  // Show blank page for unauthorized access
+  document.body.innerHTML = '';
+  document.body.style.backgroundColor = 'white';
+  document.body.style.visibility = 'visible';
+  throw new Error('Access denied');
+}
+
+// Access granted - show the page
+document.body.style.visibility = 'visible';
+
 // Initialize the transcriber
 const transcriber = await pipeline(
   "automatic-speech-recognition",

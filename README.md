@@ -64,3 +64,15 @@ It would be great if this was more portable. That app has 2 pieces: Client and S
 The server does not do anything computationally expensive - just API calls -, so it could theoretically be run on Raspberry PI or an ESP32, which may require re-writing in C++. The server also sends the data to the printer - so there would need to be drivers or use a lower level protocol use ESC/POS.
 
 It could not be run 100% on an iphone browser as WebSerial / Web USB isn't supported on Safari. Perhaps it could as a react native app?
+
+# Directions for Llew's setup
+
+1. Start Ubuntu
+2. start-servers.sh
+3. Start the tunnel in command shell: cloudflared tunnel run my-tsx-app
+4. https://stickers.calutil.com/?code=STK3R or QR code
+5. Connect and power on printer
+
+To kill the servers manually:
+  lsof -ti:7767 | xargs -r kill -9
+  lsof -ti:3000 | xargs -r kill -9

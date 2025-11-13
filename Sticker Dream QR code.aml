@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LPAPI version="2.1">
+  <isPrintHorizontal>0</isPrintHorizontal>
+  <labelHeight>30</labelHeight>
+  <labelWidth>40</labelWidth>
+  <paperName>White-4030</paperName>
+  <validBoundsX>0</validBoundsX>
+  <validBoundsY>0</validBoundsY>
+  <validBoundsWidth>40</validBoundsWidth>
+  <validBoundsHeight>30</validBoundsHeight>
+  <paperType>0</paperType>
+  <paperDesc />
+  <paperBackground>#FFFFFFFF</paperBackground>
+  <paperForeground>#FF000000</paperForeground>
+  <DisplaySize_mm>40mm × 30mm</DisplaySize_mm>
+  <DisplaySize_in>1.57" × 1.18"</DisplaySize_in>
+  <isAutoHeight>0</isAutoHeight>
+  <isRotate180>0</isRotate180>
+  <leftBlank>0</leftBlank>
+  <rightBlank>0</rightBlank>
+  <topBlank>0</topBlank>
+  <bottomBlank>0</bottomBlank>
+  <isCustomSize>0</isCustomSize>
+  <isBannerMode>0</isBannerMode>
+  <flagType>0</flagType>
+  <tailDirection>0</tailDirection>
+  <tailLength>0</tailLength>
+  <hasTail>0</hasTail>
+  <paperCategory>0</paperCategory>
+  <tag />
+  <squareBackingPaper>0</squareBackingPaper>
+  <columnCount>0</columnCount>
+  <marginLeft>0</marginLeft>
+  <marginRight>0</marginRight>
+  <paddingWidth>0</paddingWidth>
+  <isCustomTemplateSize>0</isCustomTemplateSize>
+  <templateHeight>0</templateHeight>
+  <templateWidth>0</templateWidth>
+  <labelName>Sticker Dream QR code</labelName>
+  <Platform>win</Platform>
+  <saveTime>1763030265254</saveTime>
+  <contents>
+    <WdPage>
+      <isPrintHorizontal>0</isPrintHorizontal>
+      <labelHeight>30</labelHeight>
+      <labelWidth>40</labelWidth>
+      <paperName>White-4030</paperName>
+      <validBoundsX>0</validBoundsX>
+      <validBoundsY>0</validBoundsY>
+      <validBoundsWidth>40</validBoundsWidth>
+      <validBoundsHeight>30</validBoundsHeight>
+      <paperType>0</paperType>
+      <paperDesc />
+      <paperBackground>#FFFFFFFF</paperBackground>
+      <paperForeground>#FF000000</paperForeground>
+      <DisplaySize_mm>40mm × 30mm</DisplaySize_mm>
+      <DisplaySize_in>1.57" × 1.18"</DisplaySize_in>
+      <isAutoHeight>0</isAutoHeight>
+      <isRotate180>0</isRotate180>
+      <leftBlank>0</leftBlank>
+      <rightBlank>0</rightBlank>
+      <topBlank>0</topBlank>
+      <bottomBlank>0</bottomBlank>
+      <isCustomSize>0</isCustomSize>
+      <isBannerMode>0</isBannerMode>
+      <flagType>0</flagType>
+      <tailDirection>0</tailDirection>
+      <tailLength>0</tailLength>
+      <hasTail>0</hasTail>
+      <paperCategory>0</paperCategory>
+      <tag />
+      <squareBackingPaper>0</squareBackingPaper>
+      <columnCount>0</columnCount>
+      <marginLeft>0</marginLeft>
+      <marginRight>0</marginRight>
+      <paddingWidth>0</paddingWidth>
+      <isCustomTemplateSize>0</isCustomTemplateSize>
+      <templateHeight>0</templateHeight>
+      <templateWidth>0</templateWidth>
+      <masksToBoundsType>1</masksToBoundsType>
+      <borderDisplay>0</borderDisplay>
+      <lineType>0</lineType>
+      <borderWidth>0.35277778</borderWidth>
+      <borderColor>#FF000000</borderColor>
+      <selectColor>#FF000000</selectColor>
+      <isBorderTemplate>0</isBorderTemplate>
+      <lockMovement>0</lockMovement>
+      <bgImage>iVBORw0KGgoAAAANSUhEUgAAAOIAAABxCAIAAABHgOhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASvSURBVHhe7dnbbuPIEgVR6wr5/3/WuneUNp0m3DMvEkB1ArGAQxSrKD/FSVE9q/v9/vFwu93W6zULdlaraZ/FfCe30uvICUmuECFXMvtV2oiPs78PyvV63Ww2LP7vAek5KbXW82QzNNlMdas0mnuuRLndbuuY2/1+n8bz5Pgb0svmXbLOoibm+Xze7XbZxMgUmZdzbOY5Ss0OarJKz6ErKqoEU1TGX2KtxngyybJe14qHSDiPcmWm8oHT6ZSdy+XC1Ub1ImKj0cosmyxQHWaTWZsdTD+VqDBRZ7KyoNFxPPtkfUZ6BWmlNEYht4xCXixzxH5iS35V6ngJyNM5zntrBu/8ytH8z0nPoa6Ul1jr9bSwmaE53T9M8ZJ2PsBDeSd4nP78UT45/2klPY2K8qVdObFACiTfz8/P4/HIumIbmYJ7jg+Hw9fX16+QpcXkqzvvA0zGmrU/szOl5iDhPh6QllCzkgLTHgvizOnY4oaH8oaaX/TSwuiQCBmlLPi9xA63yGKc5UXBUao3SnW/2mOdb/t11cmVdc4ez0jLqUb5Ps93PbfZZ7hOP6FoNLtcOeC5tCst4z/DY51kx0tr/mkA495G9W7zFBPn+An106xf93qfvHMGKY46v8fl9EKQfiM70430VlOv0530DzNTNWCmasBM1YCZqgEzVQNmqgbMVA2YqRowUzVgpmrATNWAmaoBM1UDZqoGzFQNmKkaMFM1YKZqwEzVgJmqATNVA2aqBsxUDZipGjBTNWCmasBM1YCZqgEzVQNmqgbMVA2YqRowUzVgpmrATNWAmaoBM1UDZqoGzFQNmKkaMFM1YKZqwEzVgJmqATNVA2aqBsxUDZipGjBTNWCmasBM1YCZqgEzVQNmqgbMVA2YqRowUzVgpmrATNWAmaoBM1UDZqoGzFQNmKkaMFM1YKZqwEzVgJmqATNVA2aqBsxUDZipGjBTNWCmasBM1YCZqgEzVQNmqgbW9/t9vR6xskB2b7dbFtIyqj1kPd9Zr1arRMmCg/P5zCLhSouhumn1HWh20ueU4/V65Uqdu93ucrk4TbU8RmQCnX+9g9vxpY/tdvt4cnCa6i0YkZmgDMrsbDYb4mSGji99VtmtmZpbaTH5AidFFgxNrimTJol1TNMkDO7ZnYcrLaO+6FMjtwmXJsct/0OOOWA3IWdfWgzvptSZ9hiXvANkXBLk9Es/meaJXKWFpcsaosmSNdcxTRPoaPZ78HKdL1BvtdIriCo/gWJ+S4FJkXXeP7PPehql3KRRHuI46+A0n2Q/LwrSizIyKYoJyiKNZVByJbM0WcaXfr0QJGdu8y9YlfO8Y+l1tAQapTRuCSyNsuBnftrL5vR87mteptTD4cC1ZmdOUR+TnpbxR0vINEUa5ZrXSxaZmDn9+bcnPlO7+QBX8DRX/vT8PwFIz6nMkhZdZRqyv9/vT6cTp5Samcp+RuT4wKj68eFMYNac8Sg7yKN8LP8nkF6R7EiQzFjQKF2xyVg9Ho/pLe+mbKZUjPfW3Ofz6TVn+Vv5Z4LcIo9JT6NLGiMkJNMEliGaZ36VNgLNVh3UHMb8KKfSi2g0w5FrVVelsc4Rj9XpdCD9uz4+/gBenmw+HSHcXQAAAABJRU5ErkJggg==</bgImage>
+      <useBgImage>1</useBgImage>
+      <group />
+      <contents>
+        <Qrcode>
+          <objectId>4707b6c1e9d64207b59c2a6fec0ea7a6</objectId>
+          <x>8.358335</x>
+          <y>3.2202923</y>
+          <width>24.000002</width>
+          <height>24.000002</height>
+          <borderDisplay>0</borderDisplay>
+          <lineType>0</lineType>
+          <borderHeight>0.35277778</borderHeight>
+          <borderColor>#FF000000</borderColor>
+          <textColor>#FF000000</textColor>
+          <bgAlpha>1</bgAlpha>
+          <bgColor>#FFFFFFFF</bgColor>
+          <orientation>0</orientation>
+          <lockMovement>0</lockMovement>
+          <isTemplate>0</isTemplate>
+          <selectColor>#FF000000</selectColor>
+          <isRedBlack>0</isRedBlack>
+          <isRatioScale>0</isRatioScale>
+          <textDataFormat>https://stickers.calutil.com/?code=STK3R</textDataFormat>
+          <selectedDataIndexs />
+          <encodingType>0</encodingType>
+          <qrCodeType>0</qrCodeType>
+          <textContent>https://stickers.calutil.com/?code=STK3R</textContent>
+          <multiplier>0</multiplier>
+          <dateOffset>0</dateOffset>
+          <showDate>0</showDate>
+          <showTime>0</showTime>
+          <isCustomTime>0</isCustomTime>
+          <isIncrement>0</isIncrement>
+          <increaseNo>1</increaseNo>
+          <page>0</page>
+          <errorLevel>1</errorLevel>
+        </Qrcode>
+      </contents>
+    </WdPage>
+  </contents>
+  <copiesPerPage>1</copiesPerPage>
+  <copiesPerPageData>1</copiesPerPageData>
+  <isRedBlack>0</isRedBlack>
+  <isBorderRedBlack>0</isBorderRedBlack>
+</LPAPI>

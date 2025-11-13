@@ -23,7 +23,10 @@ pnpm install
 
 ```
 GEMINI_API_KEY=your_api_key_here
+VITE_SOUNDS=false
 ```
+
+Optional: Set `VITE_SOUNDS=true` to enable sound effects during interactions.
 
 3. Connect a USB thermal printer. Currently only supports USB printer in MacOS - I would like to get this running with bluetooth or a receipt printer instead.
 

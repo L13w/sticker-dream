@@ -35,6 +35,22 @@ const imageDisplay = document.querySelector(
   ".image-display"
 ) as HTMLImageElement;
 
+// Load sound effects
+const pressSound = new Audio("/src/sounds/press.mp3");
+const loadingSound = new Audio("/src/sounds/loading.mp3");
+const finishedSound = new Audio("/src/sounds/finished.wav");
+
+// Check if sounds are enabled via environment variable (default: false)
+const soundsEnabled = import.meta.env.VITE_SOUNDS === 'true';
+
+// Helper function to play sounds conditionally
+function playSound(audio: HTMLAudioElement) {
+  if (soundsEnabled) {
+    audio.currentTime = 0;
+    audio.play().catch(err => console.log("Sound play failed:", err));
+  }
+}
+
 let mediaRecorder: MediaRecorder | null = null;
 let audioChunks: Blob[] = [];
 let recordingTimeout: number | null = null;
@@ -77,6 +93,9 @@ async function resetRecorder() {
     recordBtn.classList.add("loading");
     recordBtn.textContent = "Imagining...";
 
+    // Play loading sound
+    playSound(loadingSound);
+
     // Create audio blob and URL
     const audioBlob = new Blob(audioChunks, { type: "audio/webm" });
     const audioUrl = URL.createObjectURL(audioBlob);
@@ -114,6 +133,10 @@ async function resetRecorder() {
     // Stop loading state
     recordBtn.classList.remove("loading");
     recordBtn.textContent = "Printed!";
+
+    // Play finished sound
+    playSound(finishedSound);
+
     setTimeout(() => {
       recordBtn.textContent = "Sticker Dream";
     }, 1000);
@@ -128,6 +151,9 @@ resetRecorder();
 
 // Start recording when button is pressed down
 recordBtn.addEventListener("pointerdown", async () => {
+  // Play press sound
+  playSound(pressSound);
+
   // Reset audio chunks
   audioChunks = [];
   console.log(`Media recorder`, mediaRecorder);

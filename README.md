@@ -69,7 +69,7 @@ It could not be run 100% on an iphone browser as WebSerial / Web USB isn't suppo
 
 1. Start Ubuntu
 2. start-servers.sh
-3. Start the tunnel in command shell: cloudflared tunnel run my-tsx-app
+3. Start the tunnel in command shell: tunnel-start.bat (cloudflared tunnel run my-tsx-app)
 4. https://stickers.calutil.com/?code=STK3R or QR code
 5. Connect and power on printer
 
